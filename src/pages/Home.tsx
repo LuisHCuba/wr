@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <section
         className="relative min-h-screen flex items-center text-white pt-20"
         style={{
-          background: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/hero.png)',
+          background: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=1920&auto=format&fit=crop")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
