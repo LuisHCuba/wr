@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { School, Instagram, MessageSquare } from 'lucide-react';
+import { School, Instagram, MessageSquare, Calendar } from 'lucide-react';
 import Features from '../components/Features';
 
 const Home: React.FC = () => {
@@ -32,11 +32,20 @@ const Home: React.FC = () => {
             <div className="flex flex-wrap gap-4">
               <Link
                 to="/cursos"
-                className="bg-primary-500 hover:bg-primary-600 text-white inline-flex items-center px-6 py-3 rounded-full shadow-lg"
+                className="bg-secondary-600 hover:bg-secondary-700 text-white inline-flex items-center px-6 py-3 rounded-full shadow-lg"
               >
                 <School className="w-5 h-5 mr-2" />
                 Conhecer os Cursos
               </Link>
+              <a
+                href="https://wa.me/5519994097090"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-rose hover:bg-secondary-400 text-white inline-flex items-center px-6 py-3 rounded-full shadow-lg"
+              >
+                <Calendar className="w-5 h-5 mr-2" />
+                Agendar
+              </a>
             </div>
           </motion.div>
         </div>
